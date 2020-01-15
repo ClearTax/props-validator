@@ -1,0 +1,20 @@
+{
+  "name": "props-validator",
+  "version": "0.0.0",
+  "description": "React Props Validators",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ClearTax/props-validator.git"
+  },
+  "keywords": [],
+  "author": "ClearTax Engineering <engineering@cleartax.in>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ClearTax/props-validator/issues"
+  },
+  "homepage": "https://github.com/ClearTax/props-validator#readme"
+}
