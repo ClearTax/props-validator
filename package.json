@@ -12,7 +12,12 @@
     "type": "git",
     "url": "git+https://github.com/ClearTax/props-validator.git"
   },
-  "keywords": [],
+  "keywords": [
+    "react",
+    "prop-types",
+    "validation",
+    "props"
+  ],
   "author": "ClearTax Engineering <engineering@cleartax.in>",
   "license": "ISC",
   "bugs": {
