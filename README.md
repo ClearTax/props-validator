@@ -65,3 +65,11 @@ MyReactComponent.propTypes = {
 
 ...
 ```
+
+## TypeScript
+
+`props-validator` is not written in TypeScript, so while using it with TypeScript, you might face an error for missing type declaration file. Please add a `global.d.ts` file to your project and add this content to it
+
+```ts
+declare module 'props-validator'
+```
