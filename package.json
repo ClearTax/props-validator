@@ -6,7 +6,8 @@
   "scripts": {
     "lint": "eslint '**/*.js'",
     "lint:fix": "npm run lint -- --fix",
-    "test": "tap"
+    "test": "tap",
+    "prepublishOnly" : "npm-audit-ok && package-ok"
   },
   "repository": {
     "type": "git",
@@ -52,6 +53,7 @@
     "eslint-plugin-react-hooks": "^2.3.0",
     "husky": "^4.0.10",
     "lint-staged": "^9.5.0",
+    "prepublish-ok": "^0.5.0",
     "prettier": "^1.19.1",
     "tap": "^14.10.6"
   }
